@@ -1,0 +1,150 @@
+#Overskrift {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font: 150px sans-serif;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #F5F5F5;
+}
+
+.video-link-komp {
+    color: #02577a;
+}
+
+.video-link-komp:hover {
+    color: red;
+}
+
+.komp-navn {
+    color: #F5F5F5;
+}
+
+body {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #02577a;
+}
+
+.buttontext {
+    color: #F5F5F5;
+}
+
+:link {
+    text-decoration: none; /* Fjerner tekstdekorasjon */
+    color: #F5F5F5;  
+}
+
+a:visited {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+li {
+    margin: 6px;
+    display: inline-block; /* Inline-blokk element */
+}
+
+li a { 
+    display: block;
+    margin: 0 auto;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+ul {
+    margin: 0 auto;
+    list-style-type: none; /* Fjerner punktmerking */
+    padding: 0;
+    background-color: #02577a;
+    width: fit-content;
+    border-radius: 10px; /* Avrundede hjørner */
+    border-style: solid;
+    border-color: black;
+}
+
+.toptekst {
+    display: flex;
+    background-color: #02577a;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.komponenter-overskrift {
+    display: block;
+    margin: 0 auto;
+    background-color: #02577a;
+    text-align: center;
+    width: 40%;
+    color: #F5F5F5;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    font: 20px sans-serif;
+}
+
+.item-komp {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #02577a;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    width: 40%;
+    text-align: center;
+}
+
+.bilde-komp {
+    width: 70%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info-komp {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: #F5F5F5;
+    padding: 30px;
+    color: black;
+    font: 20px sans-serif;
+}
+
+.footer {
+    background-color: black;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color: #F5F5F5;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer a:hover {
+    color: #CC5500;
+}
+
+.footertext {
+    font: 15px sans-serif;
+}

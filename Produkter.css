@@ -1,0 +1,169 @@
+#Overskrift {    /*Henter id'en Overskrift fra html filene og styler den med alt under*/
+    display: block; /* Blokk-nivå element */
+    margin: 0 auto; /* Sentraliserer horisontalt */
+    text-align: center; /*Sentrerer teksten*/
+    font: 150px sans-serif; /*Setter teksten til 150 pixler og fonten til "sans-serif*/
+    width: 100%; /*Setter bredden til 100%*/
+    padding-top: 15px; /*Setter mellomrommet på toppen til 15 pixler*/
+    padding-bottom: 15px; /*Setter mellomrommet på bunnen til 15 pixler*/
+    color: #F5F5F5; /*Setter fargen til teksten til soft white #F5F5F5*/
+}
+
+body {
+    border-style: solid;  /*Setter border typen til solid (normal rett linje)*/
+    border-width: 10px; /*Setter bredden til border til 10px*/
+    border-color: #02577a; /*Setter fargen til border til #02577a*/
+}
+
+.toptekst {
+    display: flex; /*Gjør toptekst om til en flexbox*/
+    background-color: #02577a; /*Setter bakgrunnsfargen til toptekst til #02577a*/
+    margin: 0 auto;
+    justify-content: center; /*Sentrerer innholdet til toptekst*/
+}
+
+.Logo {
+    width: 20%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #02577a;
+}
+
+#Logobilde {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.PC-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Venstre-side {
+    width: 48%;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.PC-bilde {
+    width: 100%;
+    
+}
+
+.Høyre-side {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap: 20px;
+}
+
+.specs {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.PC-Pris {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+#Kjøpknapp {
+    width: 21%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    color: black;
+    font: sans-serif; 
+    border-style: solid;
+    border-color: black;
+}
+
+
+.buttontext {
+    color: #F5F5F5;
+}
+
+:link {
+    text-decoration: none;
+    color: #F5F5F5;  
+}
+
+a:visited {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+li {
+    margin: 6px;
+    display: inline-block;
+}
+
+li a { 
+    display: block;
+    margin: 0 auto;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+ul {
+    border-radius: 10px;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+    background-color: #02577a;
+    width: fit-content;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.footer {
+    background-color: black;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color: #F5F5F5;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer a:hover {
+    color: #CC5500;
+}
+
+.footertext {
+    font: 15px sans-serif;
+}

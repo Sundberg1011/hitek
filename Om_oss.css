@@ -1,0 +1,163 @@
+#Overskrift {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font: 150px sans-serif;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #F5F5F5;
+}
+
+body {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #02577a;
+}
+
+.toptekst {
+    display: flex;
+    background-color: #02577a;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.buttontext {
+    color: #F5F5F5;
+}
+
+:link {
+    text-decoration: none;
+    color: #F5F5F5;  
+}
+
+a:visited {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+li {
+    margin: 6px;
+    display: inline-block;
+}
+
+li a { 
+    display: block;
+    margin: 0 auto;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+ul {
+    border-radius: 10px;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+    background-color: #02577a;
+    width: fit-content;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.Logo {
+    width: 20%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #02577a;
+}
+
+#Logobilde {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: black;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color: #F5F5F5;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer a:hover {
+    color: #CC5500;
+}
+
+.footertext {
+    font: 15px sans-serif;
+}
+
+.søk {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+.leder-overskrift {
+    width: 30%;
+    background-color: #02577a;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    color: #F5F5F5;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    font: 50px sans-serif;
+}
+
+.leder-container {
+    width: 50%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: #02577a;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.info {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    background-color: #003366;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #F5F5F5; 
+}
+
+.leder-info {
+    color: #F5F5F5;
+    text-align: center;
+    font: 20px sans-serif;
+}
+
+.viggo {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #F5F5F5;
+}

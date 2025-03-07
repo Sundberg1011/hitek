@@ -1,0 +1,66 @@
+<!DOCTYPE html> <!-- Setter dukomentet til et HTML dokument-->
+<html lang="en"> <!-- Setter språket til engelsk-->
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiTek AS</title>
+    <script src="Hitek_Script.js"></script> <!-- Kaller på en script fil. I dette tilfelle min Hitek javascript fil-->
+    <link rel="stylesheet" href="Hitek_Style.css"> <!--Kaller på stylesheet (CSS fil) I dette tilfelle min Hitek CSS fil-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Henter iconer til footer (sosiale medier) fra linken-->
+    <link rel="icon" href="img/HitekLogo.png"> <!--Setter iconet til nettsiden til Hitek logoen min-->
+</head>
+<body>
+
+        <div class="toptekst">  <!--Lager en Div (divider) som har klassen toptekst-->
+            <div class="HiTek"> <h1 id="Overskrift">HiTek AS</h1> </div> <!--Lager en Div som har klassen HiTek og som har en Overskrift med H1 taggen-->
+            <div class="Logo"> <img id="Logobilde" src="img/HitekLogo.png" alt=""></div> <!--Lager en Div som har klassen Logo og har et bilde i seg (HitekLogo.png)-->
+        </div>  <!--Ende taggen til div-->
+
+        <br><br><br> <!--BR er samme som et avsnitt (enter)-->
+
+        <div class="underskrift"> <h1 id="underskrift">Din lokale PC-Ekspert</h1> </div>
+        
+        <br><br><br>
+
+        <div class="søk">
+            <strong class="søk_ord">Søk</strong> <!--Gjør ordet "søk" ti lfet skrift (strong)--> <input type="text" id="søkboks">  <a href="Søk.html" id="søkinput" class="button">Søk</a> <!--Her har vi en input boks som du kan skrive text i. Den har en class som heter søkboks-->
+        </div> 
+
+        
+    <br><br><br>
+
+        <ul> <!--UL er en Unordered List som er en liste som ikke har punkter eller noe--> <!--Dette er menyen min som har knapper som kan bli brukt til å navigere siden min-->
+            <li><a href="Kjøpsguide.html"><div class="buttontext">Kjøpsguide</div></a></li> <!--Lager inneholdet til listen ved å bruke li taggen--> <!--Disse li taggene har en link som sender deg videre til bestemt sted (href)-->
+            <li><a href="Om_Oss.html"><div class="buttontext">Om oss</div></a></li>
+            <li><a href="Kontaktinfo.html"><div class="buttontext">Kontakt oss</div></a></li>
+        </ul>
+
+
+
+        <br><br><br>
+
+        <div class="footer">
+            <br>
+            <div class="footertext">Check out our socials for more information and daily posts!</div>
+            <!-- En div som inneholder en oppfordring til å sjekke ut sosiale medier -->
+        
+            <br><br>
+            <!-- Legger til to linjeskift for å skape mer avstand -->
+        
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <!-- En lenke til Facebook med et ikon. target="_blank" åpner lenken i en ny fane -->
+        
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <!-- En lenke til Twitter med et ikon. target="_blank" åpner lenken i en ny fane -->
+        
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <!-- En lenke til Instagram med et ikon. target="_blank" åpner lenken i en ny fane -->
+        
+            <br><br>
+            <!-- Legger til to linjeskift for å skape mer avstand -->
+        
+            <div class="footertext">© 2025 Hitek AS. PC-Ekspert</div>
+            <!-- En div som inneholder opphavsrettsinformasjonen for 2025 Hitek AS -->
+        </div>
+</body>
+</html>

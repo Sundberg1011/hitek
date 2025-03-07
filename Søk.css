@@ -1,0 +1,22 @@
+.tilbake {
+    background-color: #003366;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+body {
+    background-color: #003366;
+}
+
+.tilbakeknapp {
+    color: #F5F5F5;
+}

@@ -1,0 +1,174 @@
+#Overskrift {    /*Henter id'en Overskrift fra html filene og styler den med alt under*/
+    display: block; /* Blokk-nivå element */
+    margin: 0 auto; /* Sentraliserer horisontalt */
+    text-align: center; /*Sentrerer teksten*/
+    font: 150px sans-serif; /*Setter teksten til 150 pixler og fonten til "sans-serif*/
+    width: 100%; /*Setter bredden til 100%*/
+    padding-top: 15px; /*Setter mellomrommet på toppen til 15 pixler*/
+    padding-bottom: 15px; /*Setter mellomrommet på bunnen til 15 pixler*/
+    color: #F5F5F5; /*Setter fargen til teksten til soft white #F5F5F5*/
+}
+
+body {
+    border-style: solid;  /*Setter border typen til solid (normal rett linje)*/
+    border-width: 10px; /*Setter bredden til border til 10px*/
+    border-color: #02577a; /*Setter fargen til border til #02577a*/
+}
+
+.toptekst {
+    display: flex; /*Gjør toptekst om til en flexbox*/
+    background-color: #02577a; /*Setter bakgrunnsfargen til toptekst til #02577a*/
+    margin: 0 auto;
+    justify-content: center; /*Sentrerer innholdet til toptekst*/
+}
+
+.Logo {
+    width: 20%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #02577a;
+}
+
+#Logobilde {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.dub {
+    display: flex;
+}
+
+.podcast {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width: 80%;
+}
+
+.dub_info {
+    color: white;
+    background-color: #02577a;
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    font: 30px sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.container-dub {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.dub-item {
+    background-color: #02577a;
+    color: #F5F5F5;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.utstyr-text {
+    font: 30px sans-serif;
+    padding: 10px;
+    background-color: #003366;
+    color: #F5F5F5;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #F5F5F5;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.list-item {
+    color: black;
+}
+
+.dub_overskrift {
+    display: block;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+
+.buttontext {
+    color: #F5F5F5;
+}
+
+:link {
+    text-decoration: none; /* Fjerner tekstdekorasjon */
+    color: #F5F5F5;  
+}
+
+a:visited {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+li {
+    margin: 6px;
+    display: inline-block; /* Inline-blokk element */
+}
+
+li a { 
+    display: block;
+    margin: 0 auto;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+ul {
+    margin: 0 auto;
+    list-style-type: none; /* Fjerner punktmerking */
+    padding: 0;
+    background-color: #02577a;
+    width: fit-content;
+    border-radius: 10px; /* Avrundede hjørner */
+    border-style: solid;
+    border-color: black;
+}
+
+.footer {
+    background-color: black;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 10px 0;
+    display: inline-block; /* Inline-blokk element */
+    width: 100%;
+    bottom: 0; /* Plasserer nederst */
+}
+
+.footer a {
+    color: #F5F5F5;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px; /*Setter størrelsen til fonten til 24 pixler*/
+}
+
+.footer a:hover {
+    color: #CC5500;
+}
+
+.footertext {
+    font: 15px sans-serif;
+}
